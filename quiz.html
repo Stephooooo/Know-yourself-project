@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Yourself Project</title>
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <script src="index.js"> </script>
+</head>
+<body>
+    
+
+<div class="container">
+    <h1> Know Yourself </h1>
+</div>
+
+<div class="container">
+    <section id="Introduction2">
+        <p> 
+            Take your time and select the words that best describe you from all of the four tabels below. <br>
+            After you select, click on the calculation button at the bottom to get the total number of traits selected then indicate down below. <br>
+            Be honest with yourself, do not rush, no pressure!
+        </p>
+    </section>
+</div>
+
+<div class="table">
+    <div class="table"> 
+
+       <h2> Table 1 </h2>
+       <form name="myform"> 
+            <input type="checkbox" name="Choleric"  > persistent  
+            <input type="checkbox" name="Choleric"  > Likes to take charge
+            <input type="checkbox" name="Choleric" > confident
+            <input type="checkbox" name="Choleric" > determined
+            <input type="checkbox"name="Choleric" > firm
+            <input type="checkbox" name="Choleric" > enterprising
+            <inpu t type="checkbox"name="Choleric" > enjoys challenges
+            <input type="checkbox" name="Choleric" > competitive
+            <input type="checkbox" name="Choleric" > problem solver
+            <input type="checkbox" name="Choleric"> bold
+            <input type="checkbox"name="Choleric" > purposeful
+            <input type="checkbox" name="Choleric"> driven
+            <input type="checkbox" name="Choleric"> adventurous
+            <input type="checkbox"name="Choleric" > independent
+            <input type="checkbox"name="Choleric" > self-reliant   
+            <input type="checkbox" name="Choleric"> controlling
+            <input type="checkbox"name="Choleric"> authoritative
+            <input type="checkbox" name="Choleric"> goal oriented 
+            <input type="checkbox"name="Choleric" > strong-willed
+            <input type="checkbox" name="Choleric"> productive <br>
+           
+       
+         
+        
+        <h2> Table 2</h2>
+
+        <input type="checkbox" name="sanguine" > enthusiastic
+        <input type="checkbox" name="sanguine"> risk-taker 
+        <input type="checkbox" name="sanguine"> visionary
+        <input type="checkbox" name="sanguine"> motivated
+        <input type="checkbox" name="sanguine"> energetic
+        <input type="checkbox" name="sanguine"> chatty
+        <input type="checkbox" name="sanguine"> promoter 
+        <input type="checkbox" name="sanguine""> friendly 
+        <input type="checkbox" name="sanguine""> sociable 
+        <input type="checkbox" name="sanguine"> enjoys being popular 
+        <input type="checkbox" name="sanguine"> fun-loving
+        <input type="checkbox" name="sanguine"> likes variety
+        <input type="checkbox" name="sanguine"> spontaneous 
+        <input type="checkbox" name="sanguine"> enjoys change
+        <input type="checkbox" name="sanguine"> creative
+        <input type="checkbox" name="sanguine"> group-oriented
+        <input type="checkbox" name="sanguine"> optimistic
+        <input type="checkbox" name="sanguine"> initiator 
+        <input type="checkbox" name="sanguine"> laughs a lot 
+        <input type="checkbox" name="sanguine"> inspirational <br>
+   
+            
+
+    <h2> Table 3 </h2>
+    <input type="checkbox" name="melancholic">detailed
+    <input type="checkbox" name="melancholic">accurate
+    <input type="checkbox" name="melancholic">consitent
+    <input type="checkbox" name="melancholic">controlled
+    <input type="checkbox" name="melancholic">reserved
+    <input type="checkbox" name="melancholic">predictable
+    <input type="checkbox" name="melancholic">practical
+    <input type="checkbox" name="melancholic">orderly
+    <input type="checkbox" name="melancholic">factual
+    <input type="checkbox" name="melancholic">conscientious
+    <input type="checkbox" name="melancholic">perfectionist
+    <input type="checkbox" name="melancholic">discerning
+    <input type="checkbox" name="melancholic">enjoys instructions
+    <input type="checkbox" name="melancholic">analytical
+    <input type="checkbox" name="melancholic">inquisitive 
+    <input type="checkbox" name="melancholic">precise
+    <input type="checkbox" name="melancholic">persistent
+    <input type="checkbox" name="melancholic">organised
+    <input type="checkbox" name="melancholic">sensitive
+    <input type="checkbox" name="melancholic">deliberate<br>
+  
+    
+    <h2>Table 4 </h2>
+    <input type="checkbox" name="phlegmatic">sensitive 
+    <input type="checkbox" name="phlegmatic">loyal
+    <input type="checkbox" name="phlegmatic">calm
+    <input type="checkbox" name="phlegmatic">well-ballanced
+    <input type="checkbox" name="phlegmatic">easy-going
+    <input type="checkbox" name="phlegmatic">gives in easily
+    <input type="checkbox" name="phlegmatic">avoids confrontation
+    <input type="checkbox" name="phlegmatic">indecisive
+    <input type="checkbox" name="phlegmatic">enjoys routine
+    <input type="checkbox" name="phlegmatic">dislikes change
+    <input type="checkbox" name="phlegmatic">warm
+    <input type="checkbox" name="phlegmatic">dry humour
+    <input type="checkbox" name="phlegmatic">adaptable
+    <input type="checkbox" name="phlegmatic">sympathetic
+    <input type="checkbox" name="phlegmatic">thoughtful
+    <input type="checkbox" name="phlegmatic">nurturing
+    <input type="checkbox" name="phlegmatic">patient
+    <input type="checkbox" name="phlegmatic">tolerant
+    <input type="checkbox" name="phlegmatic">good listener
+    <input type="checkbox" name="phlegmatic">peace maker <br>
+
+   <br>
+    <button id="select"> Calculate the total number </button>
+</div>
+</div>
+ <script>
+     
+document. getElementById ('select') .onclick = function() {
+
+var checkboxes = 
+document.querySelectorAll('input[type="checkbox"]:checked');
+
+ alert(checkboxes.length);
+}
+ </script>
+
+<div class="results">
+    <h3> Table 1 results</h3>
+    Indicate the Total number of traits in Table 1 <input type="number"> 
+    <p> 
+        If table 1 is dominant    
+        <button>
+    <a href="choleric.html"> You are a ... </a>
+</button>
+</p>
+
+    <h3> Table 2 results</h3> 
+    Indicate the Total number of traits in Table 2 <input type="number"> 
+    <p> 
+        If table 2 is dominant    
+        <button>
+    <a href="sanguine.html"> You are a ... </a>
+</button>
+</p>
+    
+    <h3> Table 3 results</h3> 
+    Indicate the Total number of traits in Table 3 <input type="number"> 
+    <p> 
+        If table 3 is dominant    
+        <button>
+    <a href="melancholic.html"> You are a ... </a>
+</button>
+</p>
+    
+    <h3> Table 4 results</h3> 
+    Indicate the Total number of traits in Table 4 <input type="number"> 
+    <p> 
+        If table 4 is dominant    
+        <button>
+    <a href="phlegmatic.html"> You are a ... </a>
+</button>
+</p>
+
+</div>
+
+</form>
+</body>
+</html>

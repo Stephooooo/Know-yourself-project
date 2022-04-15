@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background-image{
+    background-image: url('../img/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  transparent;
+    height: 45vh;
+}
+
+.container {
+    background-color:  transparent;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font: bold;
+    font-family: comic sans-serif ;
+}
+
+.Introduction {
+    text-align: center;
+  font-size: x-large;
+  line-height:normal;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+
+  .Introduction button {
+background-color: whitesmoke;
+font-size: large;
+  }
+
+  .container {
+      background-color: #6fa897 ;
+  }
+  .container button {
+    background-color: whitesmoke;
+    font-size: large;
+    line-height: normal;
+  }
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 22.22%;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+
+.row ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-footer{
+    background-color: #b0dace;
+}
+.table {
+    text-align: center;
+    font-size: large;
+    line-height: 20px;
+   background-color: #b0dace;
+ 
+}
+
+.results {
+    text-align: center;
+    background-color:#2e9e7c
+}
+
+.choleric {
+    background-image: url(../img/Choleric.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  transparent;
+    height: 70vh;
+}
+.choleric1 {
+    background-color: #FFA680;
+    line-height: 28px;
+    font-size: larger;
+    text-align: center;
+
+}
+.melancholic {
+    background-image: url(../img/Melancholic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  transparent;
+    height: 70vh;
+}
+.melancholic1 {
+    background-color: #519D70;
+    line-height: 28px;
+    font-size: larger;
+    text-align: center;
+
+}
+.phlegmatic{
+    background-image: url(../img/Phlegmatic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  transparent;
+    height: 70vh;
+}
+.phlegmatic1{
+    background-color: #3F556F;
+    line-height: 28px;
+    font-size: larger;
+    text-align: center;
+    color: white;
+
+}
+.sanguine{
+    background-image: url(../img/sanguine.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:  transparent;
+    height: 70vh;
+}
+.sanguine1{
+    background-color: #F2C653;
+    line-height: 28px;
+    font-size: larger;
+    text-align: center;
+    
+}
+
+.back button {
+    text-align: center;
+    background-color: azure;
+    
+
+}
